@@ -1,0 +1,27 @@
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    
+    background: var(--gray-700);
+    color: var(--white);
+}
+
+.header img{
+    height: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+.color1 {
+    color: var(--blue-200)
+}
+.color2 {
+    color: var(--purple-400)
+}
+

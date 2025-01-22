@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer form {
+    
+}
+.footer textarea {
+    resize: none;
+    width: 46rem;
+    background: var(--gray-500);
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: none;
+    height: 3rem;
+    padding: 0.87rem;
+    overflow: hidden;
+    color: var(--white);
+    z-index: 2;
+    margin-top: -1.5rem;
+}
