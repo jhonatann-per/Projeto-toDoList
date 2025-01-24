@@ -11,12 +11,3 @@
 .wrapper h1{
     color: var(--white);
 }
-
-@media (max-width: 768px) {
-    html{
-        font-size: 87.5%;
-    }
-    .wrapper{
-        grid-template-columns: 1fr;
-    }
-}
