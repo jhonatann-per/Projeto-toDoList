@@ -1,13 +1,19 @@
 .wrapper {
-    max-width: 70rem;
+    max-width: 47rem;
     margin: 2rem auto;
     padding: 0 1rem;
     display: grid;
-    grid-template-columns: 256px 1fr;
-    gap: 2rem;
-    align-items: flex-start;
-    border: 1px solid rebeccapurple;
+    place-items: center;
 }
+
 .wrapper h1{
     color: var(--white);
+}
+@media (max-width: 768px) {
+    html{
+        font-size: 87.5%;
+    }
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
 }
